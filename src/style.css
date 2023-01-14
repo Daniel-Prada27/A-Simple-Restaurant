@@ -6,6 +6,9 @@
 body {
     flex-direction: column;
     margin: 0;
+    background-image: url('./backgroundImg.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 img {
