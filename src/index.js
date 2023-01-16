@@ -1,5 +1,5 @@
 import './style.css';
-import {loadHomeBody} from './page-loaders.js';
+import {loadHomeBody, hahaha} from './page-loaders.js';
 // import BackGround from './backgroundImg.jpg';
 
 // const achu = document.createElement("div");
@@ -15,7 +15,7 @@ import {loadHomeBody} from './page-loaders.js';
 // achu.appendChild(myBackground);
 
 
-let currentTab;
+export let currentTab;
 
 const header = document.createElement('header');
 const homeBtn = document.createElement('div');
@@ -36,7 +36,7 @@ header.classList.add('header');
 
 
 // HOME PAGE ELEMENTS
-const title = document.createElement('div');
+export const title = document.createElement('div');
 const h1 = document.createElement('h1');
 title.id = "content";
 h1.innerHTML = "A Simple Restaurant";
